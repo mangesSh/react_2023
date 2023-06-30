@@ -287,7 +287,7 @@ JSX
  <img></img>    valid
  <img /> 		valid
 -Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names.
--ex: class becomes className in JSX, and tabindex becomes tabIndex.
+-ex: class becomes className in JSX, and tabIndex becomes tabIndex.
 
 
 

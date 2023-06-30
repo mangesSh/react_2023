@@ -5,6 +5,16 @@ import Demo2 from '../../demo/Demo2';
 import Demo3 from '../../demo/Demo3';
 import Demo4 from '../../demo/Demo4';
 import ConditionalDemo1 from '../conditionalrendering/ConditionalDemo1';
+import ConditionalDemo2 from '../conditionalrendering/ConditionalDemo2';
+import ListDemo1 from '../listitem/ListDemo1';
+import ListDemo2 from '../listitem/ListDemo2';
+import UserList from '../listitem/UserList';
+import ProductList from '../listitem/ProductList';
+import ProductsTable from '../listitem/ProductsTable';
+import ForceUpdateDemo1 from '../forceUpdate/ForceUpdateDemo1';
+import ForceUpdateDemo2 from '../forceUpdate/FOrceUdateDemo2';
+import StateDemo1 from '../state/StateDemo1';
+import Greet from '../props/Greet';
 
 function Body() {
   return (
@@ -12,10 +22,28 @@ function Body() {
     <div className='body'>
    <div>this is body</div> 
 {/* <Demo1/> */}
-<Demo2/>
-<Demo3/>
-<Demo4/>
-<ConditionalDemo1/>
+{/* <Demo2/> */}
+{/* <Demo3/> */}
+{/* <Demo4/> */}
+{/* <ConditionalDemo1/> */}
+{/* <ConditionalDemo2/> */}
+{/* <ListDemo1/> */}
+{/* <ListDemo2/> */}
+{/* <UserList/> */}
+{/* <ProductsTable/> */}
+{/* <ProductList/> */}
+{/* <ForceUpdateDemo1/> */}
+{/* <ForceUpdateDemo2/> */}
+{/* <StateDemo1/> */}
+<Greet name="Mangesh" msg="goodmorning" age={30}>
+<>
+          <h3>This is The Content From Body Component</h3>
+          <h4>This is heading-4 from Parent</h4>
+        </>
+      </Greet>
+<Greet name="Akash"  /> 
+{/* isRequired makes it mandatory for name  if you remove the name from above  defaultprops for msg and age*/ }
+
 </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import Demo1 from "../demo/Demo1";
-import Demo2 from "../demo/Demo2";
+// import Demo1 from "../demo/Demo1";
+// import Demo2 from "../demo/Demo2";
 
 export default function ConditionalDemo1() {
   let n = 6;
