@@ -15,6 +15,9 @@ import ForceUpdateDemo1 from '../forceUpdate/ForceUpdateDemo1';
 import ForceUpdateDemo2 from '../forceUpdate/FOrceUdateDemo2';
 import StateDemo1 from '../state/StateDemo1';
 import Greet from '../props/Greet';
+import StateDemo0 from '../state/StateDemo0';
+import StateDemo2 from '../state/StateDemo2';
+import StateDemo3 from '../state/StateDemo3';
 
 function Body() {
   return (
@@ -34,16 +37,21 @@ function Body() {
 {/* <ProductList/> */}
 {/* <ForceUpdateDemo1/> */}
 {/* <ForceUpdateDemo2/> */}
-{/* <StateDemo1/> */}
-<Greet name="Mangesh" msg="goodmorning" age={30}>
-<>
-          <h3>This is The Content From Body Component</h3>
+
+{/* <Greet name="Mangesh" msg="goodmorning" age={30}>
+  
+<> */}
+{/* HTML content parent decide to send to child then use props.children */}
+          {/* <h3>This is The Content From Body Component</h3>
           <h4>This is heading-4 from Parent</h4>
         </>
       </Greet>
-<Greet name="Akash"  /> 
+<Greet name="Akash"  />  */}
 {/* isRequired makes it mandatory for name  if you remove the name from above  defaultprops for msg and age*/ }
-
+<StateDemo0/>
+{/* <StateDemo1/> */}
+{/* <StateDemo2/> */}
+<StateDemo3/>
 </div>
   )
 }
