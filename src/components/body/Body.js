@@ -18,6 +18,9 @@ import Greet from '../props/Greet';
 import StateDemo0 from '../state/StateDemo0';
 import StateDemo2 from '../state/StateDemo2';
 import StateDemo3 from '../state/StateDemo3';
+import StateDemo4 from '../state/StateDemo4';
+import PasswardDemo from '../state/PasswardDemo';
+import RemainingChar from '../state/RemainingChar';
 
 function Body() {
   return (
@@ -48,10 +51,13 @@ function Body() {
       </Greet>
 <Greet name="Akash"  />  */}
 {/* isRequired makes it mandatory for name  if you remove the name from above  defaultprops for msg and age*/ }
-<StateDemo0/>
+{/* <StateDemo0/> */}
 {/* <StateDemo1/> */}
 {/* <StateDemo2/> */}
-<StateDemo3/>
+{/* <StateDemo3/> */}
+{/* <StateDemo4/> */}
+{/* <PasswardDemo/> */}
+<RemainingChar/>
 </div>
   )
 }
