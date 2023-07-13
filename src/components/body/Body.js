@@ -22,6 +22,10 @@ import StateDemo4 from '../state/StateDemo4';
 import PasswardDemo from '../state/PasswardDemo';
 import RemainingChar from '../state/RemainingChar';
 
+import StateDemo5 from '../state/StateDemo5';
+import Additionprac from '../state/Additionprac';
+import SearchDemo from '../listitem/SearchDemo';
+
 function Body() {
   return (
 
@@ -57,7 +61,10 @@ function Body() {
 {/* <StateDemo3/> */}
 {/* <StateDemo4/> */}
 {/* <PasswardDemo/> */}
-<RemainingChar/>
+{/* <RemainingChar/> */}
+{/* <Additionprac/> */}
+{/* <StateDemo5/> */}
+<SearchDemo/>
 </div>
   )
 }
