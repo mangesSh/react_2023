@@ -28,6 +28,9 @@ import SearchDemo from '../listitem/SearchDemo';
 import EventDemo1 from '../events/EventDemo1';
 import EventDemo2 from '../events/EventDemo2';
 import Addition1 from '../events/Addition1';
+import Addition2 from '../events/Addition2';
+import SyntheticEvent from '../events/SyntheticEvent';
+import EventDemo3 from '../events/EventDemo3';
 
 function Body() {
   return (
@@ -70,7 +73,10 @@ function Body() {
 {/* <SearchDemo/> */}
 {/* <EventDemo1/> */}
 {/* <EventDemo2/> */}
-<Addition1/>
+{/* <Addition1/> */}
+{/* <Addition2/> */}
+{/* <SyntheticEvent/> */}
+<EventDemo3/>
 </div>
   )
 }

@@ -1,11 +1,13 @@
 import React from 'react';
-import './Categories.css';
+import categoriesArr from "./Categories.json";
+import Category from "./Category";
+// import './Categories.css';
 
 function Categories() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col">
+        {/* <div className="col">
           <div className="category text-center">
             <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/1350e22cff9663e7.png?q=100"></img>
             <div>Top Offers</div>
@@ -58,7 +60,10 @@ function Categories() {
             <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/aecfaba5969b96dd.png?q=100"></img>
             <div>Grocery</div>
           </div>
-        </div>
+        </div> */}
+          {categoriesArr.map((categoryObj) => {
+          return <Category categoryObj={categoryObj} />;
+        })}
       </div>
       
     </div>
