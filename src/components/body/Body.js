@@ -31,6 +31,13 @@ import Addition1 from '../events/Addition1';
 import Addition2 from '../events/Addition2';
 import SyntheticEvent from '../events/SyntheticEvent';
 import EventDemo3 from '../events/EventDemo3';
+import Parent from '../comp-Communication/Parent';
+import Demo5 from '../../demo/Demo5';
+import Demo6 from '../../demo/Demo6';
+import MemoParent from '../memo/MemoParent';
+import UseMemoDemo1 from '../hooks/UseMemoDemo1';
+import UseMemoDemo2 from '../hooks/UseMemoDemo2';
+import UseCallBackDemo1 from '../hooks/UseCallBackDemo1';
 
 function Body() {
   return (
@@ -76,7 +83,14 @@ function Body() {
 {/* <Addition1/> */}
 {/* <Addition2/> */}
 {/* <SyntheticEvent/> */}
-<EventDemo3/>
+{/* <EventDemo3/> */}
+{/* <Parent/> */}
+{/* <Demo5/> */}
+{/* <Demo6/> */}
+{/* <MemoParent/> */}
+{/* <UseMemoDemo1/> */}
+{/* <UseMemoDemo2/> */}
+<UseCallBackDemo1/>
 </div>
   )
 }
