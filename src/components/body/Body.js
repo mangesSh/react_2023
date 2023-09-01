@@ -38,6 +38,13 @@ import MemoParent from '../memo/MemoParent';
 import UseMemoDemo1 from '../hooks/UseMemoDemo1';
 import UseMemoDemo2 from '../hooks/UseMemoDemo2';
 import UseCallBackDemo1 from '../hooks/UseCallBackDemo1';
+import LifeCycleDemo1 from '../lifecycle/LifeCycleDemo1';
+import LifeCycleDemo2 from '../lifecycle/LifeCycleDemo2';
+import LifeCycleDemo3 from '../lifecycle/LifeCycleDemo3';
+import UseEffectDemo1 from '../hooks/UseEffectDemo1';
+import UseEffectDemo2 from '../hooks/UseEffectDemo2';
+import UseEffectDemo3 from '../hooks/UseEffectDemo3';
+import UseRefDemo1 from '../hooks/UseRefDemo1';
 
 function Body() {
   return (
@@ -90,7 +97,19 @@ function Body() {
 {/* <MemoParent/> */}
 {/* <UseMemoDemo1/> */}
 {/* <UseMemoDemo2/> */}
-<UseCallBackDemo1/>
+{/* <UseCallBackDemo1/> */}
+{/* <LifeCycleDemo1 name="Rahul" /> */}
+  {/* <LifeCycleDemo2 /> */}
+  {/* <LifeCycleDemo3/> */}
+   <UseEffectDemo1 />
+     <UseEffectDemo2 />
+      <UseEffectDemo3 />
+      <UseRefDemo1 />
+      {/* <RefDemo1 /> */}
+ 
+      {/* <RefDemo2 /> */}
+      {/* <RefDemo3 /> */}
+      {/* <RefDemo4 /> */}
 </div>
   )
 }
