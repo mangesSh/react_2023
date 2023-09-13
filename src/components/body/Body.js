@@ -45,6 +45,11 @@ import UseEffectDemo1 from '../hooks/UseEffectDemo1';
 import UseEffectDemo2 from '../hooks/UseEffectDemo2';
 import UseEffectDemo3 from '../hooks/UseEffectDemo3';
 import UseRefDemo1 from '../hooks/UseRefDemo1';
+import RefDemo1 from '../ref/RefDemo1';
+import RefDemo2 from '../ref/RefDemo2';
+import RefDemo3 from '../ref/RefDemo3';
+import RefDemo4 from '../ref/RefDemo4';
+import FormDemo1 from '../form/FormDemo1';
 
 function Body() {
   return (
@@ -101,15 +106,16 @@ function Body() {
 {/* <LifeCycleDemo1 name="Rahul" /> */}
   {/* <LifeCycleDemo2 /> */}
   {/* <LifeCycleDemo3/> */}
-   <UseEffectDemo1 />
-     <UseEffectDemo2 />
-      <UseEffectDemo3 />
-      <UseRefDemo1 />
-      {/* <RefDemo1 /> */}
- 
-      {/* <RefDemo2 /> */}
-      {/* <RefDemo3 /> */}
-      {/* <RefDemo4 /> */}
+   {/* <UseEffectDemo1 /> */}
+     {/* <UseEffectDemo2 /> */}
+      {/* <UseEffectDemo3 /> */}
+      {/* <UseRefDemo1 /> */}
+      {/* <RefDemo1/> */}
+      {/* <RefDemo2/> */}
+      {/* <RefDemo3/> */}
+      {/* <RefDemo4/> */}
+      <FormDemo1/>
+     
 </div>
   )
 }
